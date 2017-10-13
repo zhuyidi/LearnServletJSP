@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>表单输入标记示例</title>
+    </head>
+    <body>
+        <h1>用户信息调查</h1>
+        <form action="mailto:1311243087@qq.com" method="get" name="invest">
+            姓名:<input type="text" name="username" size=20><br>
+            网址:<input type="text" name="URL" size=20 maxlength=50 value="http://"><br>
+            密码:<input type="password" name="passwd" size=20 maxlength=8><br>
+            确认密码:<input type="password" name="passwa_again" size=20 maxlength=8><br>
+            请上传你的照片:<input type="file" name="File"><br>
+            请选择你喜欢的音乐:
+            <input type="checkbox" name="M1" value="rock" checked>摇滚乐
+            <input type="checkbox" name="M2" value="jazz">爵士乐
+            <input type="checkbox" name="M3" value="pop">流行乐
+            <br>
+            请选择你居住的城市:
+            <input type="radio" name="city" value="xian" checked>西安
+            <input type="radio" name="city" value="xianyang">咸阳
+            <input type="radio" name="city" value="baoji">宝鸡
+            <input type="radio" name="city" value="yulin">榆林
+            <br>
+            <input type="image" name="Image" src="chengshi.jpg" width=200 height=150><br>
+            <input type="hidden" name="form_name" value="invest">
+            <input type="button" name="Button" value="普通按钮">
+            <input type="submit" name="Submit" value="提交表单">
+            <input type="reset" name="Reset" value="重置表单">
+        </form>
+    </body>
+</html>
